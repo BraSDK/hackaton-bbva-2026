@@ -19,6 +19,10 @@ no se acepta; si caduca, vuelve a enviarla.
 **¿Dónde va la carpeta `submission/`?**
 En la raíz de tu repositorio, en la rama `main`. Su contenido se describe en [`PRUEBA_TECNICA.md`](PRUEBA_TECNICA.md).
 
+**¿Qué `candidate_strategy.py` se evalúa: el de la raíz o el de `submission/`?**
+El de `submission/`. `run.py` y las pruebas usan el de la raíz: antes del cierre, copia la versión final a
+`submission/candidate_strategy.py`. Para probar esa copia: `python run.py --strategy submission/candidate_strategy.py`.
+
 **¿Qué pongo en el campo `candidate` de `submission_manifest.json`?**
 El correo con el que te inscribiste.
 

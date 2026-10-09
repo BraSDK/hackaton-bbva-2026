@@ -45,14 +45,15 @@ Prueba técnica: mejora de la entrega de tarjetas.
 - No hagas fork del repositorio del reto ni abras pull requests contra él.
 - Puedes usar otras ramas, pero solo se evalúa `main`.
 - Haz commits y súbelos con frecuencia.
-- Solo se ejecuta `submission/candidate_strategy.py`. Los cambios en el motor, las interfaces o los datos no forman
-  parte de la solución.
+- Solo se ejecuta `submission/candidate_strategy.py`. El `candidate_strategy.py` de la raíz, que usan `run.py` y las
+  pruebas, no se evalúa: antes del cierre, copia la versión final a `submission/`.
+- Los cambios en el motor, las interfaces o los datos no forman parte de la solución.
 
 ## 6. Qué entregar
 
 En la raíz de tu repositorio, en la rama `main`, una carpeta `submission/` con:
 
-- `candidate_strategy.py`: tu solución.
+- `candidate_strategy.py`: tu solución, en su versión final.
 - `generated_artifacts/`: pruebas, scripts y prototipos que hayas creado. Si está vacía, deja un archivo `.gitkeep`.
 - `ai_conversations/`: las conversaciones completas con IA, incluidos los intentos fallidos.
 - `STRATEGY.md`: qué cambiaste y por qué, qué mediste y qué limitaciones quedan. Hasta 2.500 palabras.

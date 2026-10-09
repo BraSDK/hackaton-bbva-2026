@@ -65,7 +65,7 @@ Generan `output/performance_report.json` y
 | `scenarios/public_150k/` | Datos del ejemplo grande, con el mismo formato. |
 | `anexos/nota_traspaso_legacy.pdf` | Nota de traspaso de la implementación heredada. |
 | `anexos/nota_operaciones_legacy.md` | Nota de operaciones de la implementación heredada. |
-| `ai_conversations/` | Carpeta para guardar las conversaciones técnicas con IA. |
+| `submission/` | Carpeta de tu entrega, que creas en la raíz del repositorio: ver «Qué entregar». |
 | `performance_report.schema.json` | Define la estructura del informe de resultados generado por el motor. |
 | `submission_manifest.schema.json` | Define la estructura del inventario que acompañará tu entrega. |
 | `protected_files.sha256` | Inventario automático de huellas digitales para comprobar que los archivos de referencia no han cambiado. No tienes que leerlo, rellenarlo ni entregarlo. |
