@@ -49,6 +49,18 @@ Algún archivo protegido cambió. Puedes modificar `candidate_strategy.py` y añ
 en `tests/`, pero no modificar los archivos existentes. Restáuralos a su versión original o vuelve a clonar el
 repositorio del reto.
 
+**La prueba `tests/test_candidate_strategy_smoke.py` falla con mi estrategia. ¿Afecta a la evaluación?**
+No. Es una prueba de ejemplo: comprueba el comportamiento de la estrategia inicial y no se ejecuta en la evaluación. Al
+empezar debe pasar, porque así compruebas que tu entorno funciona. Si después tu estrategia cambia ese comportamiento
+dentro de las reglas, es normal que falle. Para tus propias pruebas, crea archivos nuevos en `tests/` (por ejemplo,
+`tests/test_mi_estrategia.py`; puedes partir de una copia de la prueba de ejemplo) sin modificar los existentes, e
+inclúyelos en `submission/generated_artifacts/` al entregar.
+
+**¿La simulación termina cuando ya no quedan tarjetas pendientes?**
+No. El motor llama a `on_dispatch_tick` cada 15 minutos hasta el corte (el mayor deadline más siete días naturales),
+aunque no queden tarjetas pendientes. En este punto, `REGLAS_PUBLICAS.md` describe un fin anticipado que el motor
+publicado no aplica. La evaluación usa este mismo motor, sin cambios, para todas las entregas.
+
 **¿Los ejemplos públicos puntúan?**
 No. `run.py` (5.000 tarjetas) y `run_150k.py` (150.000 tarjetas) son casos de desarrollo.
 
