@@ -4,7 +4,7 @@
   ],
   "files": {
     "EVALUACION.md": "8f098c9bab02ba9d95a359b397f372efbac364eb7f8b6d6a4a4a2715a865dc4b",
-    "PRUEBA_TECNICA.md": "71365efb5b65693b7ec9f10048573ef9bfc1e5392bc4a279de72d0739332854a",
+    "PRUEBA_TECNICA.md": "392a857647e25aefcf8f97b870230f60de3b359d2fd1f70edd5a278cc125e23a",
     "REGLAS_PUBLICAS.md": "bdca031db0ed4d39183e2eba078e6cfbda46bffa3037fc42914020aeb565b208",
     "anexos/nota_operaciones_legacy.md": "ffd667578c415447ede80f0a066f46f4d601244fa8996247f0727ac457990b1a",
     "anexos/nota_traspaso_legacy.pdf": "afc34ffb392409396694f4c9f304f17d5c6d3117525ab6f4787216a528a8c3ad",
@@ -42,7 +42,7 @@
     "scenarios/public_150k/rules.toml": "92d09249b8e40fca256534c7b9a99a5e6b96118ad78489065cb444b2f3f7f2cd",
     "scenarios/public_150k/scenario.toml": "da09b4621d6d5e9b7179e9111c654d26b66464a90b6eb912004c6f07f29735c6",
     "scenarios/public_150k/shipments.csv": "0b1d0e0e989ca26d874b639ff7cd664423c00e410b2107dc6d059bd44c8d30e9",
-    "submission_manifest.schema.json": "e7549f8d72d35a9cdc8de0d4af0105d99b8a9e31532d49cf4a31a7cecd702603",
+    "submission_manifest.schema.json": "fa9f1eeb17a19f1dac13cd562ded593c4c5bb21b7b5125f16be1601095c49025",
     "tests/test_candidate_strategy_smoke.py": "eac00858aa0fa3eb6fdb6bc241ca9853228e883e44325b9bba8b667d97edb938"
   },
   "schema_version": "0.1.0",

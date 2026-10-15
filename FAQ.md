@@ -1,7 +1,7 @@
 # Preguntas frecuentes
 
-Este archivo se actualiza con las consultas que llegan al grupo de consultas. La versión vigente es la del repositorio
-del reto.
+Este archivo se actualiza con las consultas que llegan a `bbva-hackaton-2026.group@bbva.com`. La versión vigente es la
+del repositorio del reto.
 
 ## Repositorio y entrega
 
@@ -9,8 +9,8 @@ del reto.
 No. Crea un repositorio privado propio y sube allí el contenido, como indica el [manual](README.md).
 
 **¿Qué rama se evalúa?**
-La rama `main` de tu repositorio, tal como esté subida (`git push`) a las 07:00 (hora de Lima) del día siguiente al
-cierre.
+La rama `main` de tu repositorio, tal como esté subida (`git push`) a las 07:00 (hora de Lima) del martes 20 de
+octubre. El cierre es el lunes 19 de octubre a las 22:00 (hora de Lima).
 
 **¿Cómo doy acceso a mi repositorio?**
 En tu repositorio, en Settings → Collaborators, añade la cuenta `bbvaHackaton2026`. La invitación caduca a los 7 días si
@@ -23,8 +23,8 @@ En la raíz de tu repositorio, en la rama `main`. Su contenido se describe en [`
 El de `submission/`. `run.py` y las pruebas usan el de la raíz: antes del cierre, copia la versión final a
 `submission/candidate_strategy.py`. Para probar esa copia: `python run.py --strategy submission/candidate_strategy.py`.
 
-**¿Qué pongo en el campo `candidate` de `submission_manifest.json`?**
-El correo con el que te inscribiste.
+**¿Qué pongo en `candidate_name` y `candidate` de `submission_manifest.json`?**
+En `candidate_name`, tu nombre completo; en `candidate`, el correo con el que te inscribiste en Genoma.
 
 **Si no tengo scripts adicionales, ¿qué pongo en `generated_artifacts/`?**
 Un archivo `.gitkeep`, declarado en `submission_manifest.json`.
@@ -55,4 +55,7 @@ No. `run.py` (5.000 tarjetas) y `run_150k.py` (150.000 tarjetas) son casos de de
 ## Consultas
 
 **¿Dónde envío una pregunta?**
-Al grupo de consultas: [enlace del grupo]. Las respuestas útiles para todos se añaden a este archivo.
+A `bbva-hackaton-2026.group@bbva.com`. Las respuestas útiles para todos se añaden a este archivo.
+
+**¿Dónde reporto un fallo del entorno?**
+En `bbva-hackaton-2026.group@bbva.com`, con los pasos para reproducirlo y el error que obtienes.

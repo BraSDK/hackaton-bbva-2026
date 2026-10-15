@@ -112,14 +112,15 @@ submission/
   utilizaste la IA y cómo verificaste sus aportaciones. Distingue resultados
   medidos, hipótesis y trabajo pendiente. Extensión recomendada: hasta 2.500 palabras.
 - **submission_manifest.json:** inventario de los archivos y herramientas utilizados,
-  siguiendo `submission_manifest.schema.json`. En `candidate`, indica el correo
-  con el que te inscribiste.
+  siguiendo `submission_manifest.schema.json`. En `candidate_name`, indica tu nombre
+  completo y, en `candidate`, el correo con el que te inscribiste en Genoma.
 
 Ejemplo de inventario:
 
 ```json
 {
   "candidate": "correo-de-inscripcion@dominio.com",
+  "candidate_name": "Nombre y apellidos",
   "models_and_tools": [{"tool": "nombre", "model": "modelo-o-desconocido"}],
   "evaluated_file": "candidate_strategy.py",
   "generated_artifacts": [],
