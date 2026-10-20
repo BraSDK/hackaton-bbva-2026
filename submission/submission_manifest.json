@@ -1,0 +1,19 @@
+{
+  "candidate": "brasusano@gmail.com",
+  "candidate_name": "Bryan Elias Susano Alcarraz",
+  "models_and_tools": [
+    {
+      "tool": "Gemini",
+      "model": "Gemini 1.5 Pro"
+    }
+  ],
+  "evaluated_file": "candidate_strategy.py",
+  "generated_artifacts": [
+    "generated_artifacts/.gitkeep"
+  ],
+  "conversation_files": [
+    "ai_conversations/session-01.md"
+  ],
+  "redactions": [],
+  "declaration": "He revisado y asumo la responsabilidad de la entrega final."
+}
